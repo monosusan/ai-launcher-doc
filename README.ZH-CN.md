@@ -1,5 +1,6 @@
 - [English](./README.md)
 - [简体中文](./README.ZH-CN.md)
+- [正體中文](./README.ZH-TW.md)
 
 
 ## 快速开始
@@ -215,3 +216,4 @@ ADMIN_EMAILS = ""
 4. 等构建完成，即可在 Vercel 控制台看到你的项目
 
 5. 打开域名，即可访问你的项目
+
