@@ -12,133 +12,133 @@
 - [Tiếng Việt](./README.VI.md)
 - [Türkçe](./README.TR.md)
 
-## 快速開始
+## 빠른 시작
 
-1. 在 AI Launcher 官網下單購買
+1. AI Launcher 공식 웹사이트에서 구매
    
    [https://ai-startups.uk/#pricing](https://ai-startups.uk/#pricing)
 
-2. 支付完成後，進入訂單中心
+2. 결제 후 주문 센터 접속
    
    [https://ai-startups.uk/my-orders](https://ai-startups.uk/my-orders)
    
-   選擇訂單進行啟用。
+   활성화를 위해 주문을 선택하세요.
    <img width="1276" alt="Xnip2025-01-13_22-10-13" src="https://github.com/user-attachments/assets/04002ad8-4ad7-4c87-b136-f858a5e9a3e9" />
 
-3. 綁定你的 Github Username 進行啟用
+3. 활성화를 위해 Github 사용자 이름 연동
    
    <img width="507" alt="Xnip2025-01-14_00-45-09" src="https://github.com/user-attachments/assets/79d5fd6f-2a08-4876-a2fe-b656f925330b" />
 
-4. 啟用成功後，你將在 Github 通知中心收到邀請，點擊加入 AI Launcher 程式碼儲存庫
+4. 활성화 성공 후, Github 알림에서 초대를 받게 됩니다. AI Launcher 코드 저장소에 참여하려면 클릭하세요.
 
-## 取得專案程式碼
+## 프로젝트 코드 클론
 
-1. 進入 AI Launcher 程式碼儲存庫（如果未加入儲存庫，打開會是 404）
+1. AI Launcher 코드 저장소 접속 (참여하지 않은 경우 404 표시)
    
    [https://github.com/monosusan/ai-launcher-code-template](https://github.com/monosusan/ai-launcher-code-template)
 
-2. 選擇 git clone 的方式，或者直接下載原始碼到你的本機電腦
+2. Git 클론을 선택하거나 소스 코드를 로컬 컴퓨터에 직접 다운로드
 
-   <img width="918" alt="圖片" src="https://github.com/user-attachments/assets/080f1d93-c08d-4360-a9c4-012683a45bee" />
+   <img width="918" alt="image" src="https://github.com/user-attachments/assets/080f1d93-c08d-4360-a9c4-012683a45bee" />
 
-## 安裝專案
+## 프로젝트 설치
 
-1. 進入專案根目錄
+1. 프로젝트 루트 디렉토리로 이동
    
    ```bash
    cd ai-launcher-code-template
    ```
 
-2. 安裝專案相依套件
+2. 프로젝트 종속성 설치
 
    ```bash
    pnpm install
    ```
 
-## 開發除錯
+## 개발 및 디버깅
 
-1. 複製環境變數設定檔
+1. 환경 변수 설정 파일 복사
 
    ```bash
    cp .env.example .env.development
    ```
 
-2. 啟動開發伺服器
+2. 개발 서버 시작
 
    ```bash
    pnpm dev
    ```
 
-3. 本機預覽
+3. 로컬 미리보기
    
-   在瀏覽器打開 [http://localhost:3000](http://localhost:3000/) ，即可預覽你的專案
+   브라우저에서 [http://localhost:3000](http://localhost:3000/)을 열어 프로젝트를 미리보기
 
-   <img width="1345" alt="圖片" src="https://github.com/user-attachments/assets/c6419f32-d296-4f71-bdc6-67cbfa5f0c9a" />
+   <img width="1345" alt="image" src="https://github.com/user-attachments/assets/c6419f32-d296-4f71-bdc6-67cbfa5f0c9a" />
 
-## 客製化修改
+## 커스터마이징
 
-### 修改網頁配色
+### 웹사이트 색상 변경
 
-1. 選擇一個 shadcn 主題除錯器
+1. shadcn 테마 디버거 선택
    * [shadcn themes](https://ui.shadcn.com/themes)
    * [shadcn-ui-theme-generator](https://zippystarter.com/tools/shadcn-ui-theme-generator)
 
-2. 為你的專案調製一套主題配色
+2. 프로젝트의 색상 스키마 생성
 
-![圖片](https://github.com/user-attachments/assets/76f95a54-3fc9-4d72-b9ae-e6ae4f2ce1f3)
+![image](https://github.com/user-attachments/assets/76f95a54-3fc9-4d72-b9ae-e6ae4f2ce1f3)
 
-3. 複製主題樣式，貼上到專案檔案
+3. 테마 스타일을 복사하여 프로젝트 파일에 붙여넣기
 
-<img width="770" alt="圖片" src="https://github.com/user-attachments/assets/25ce525e-9a16-4066-a695-f5ed824d8ab4" />
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/25ce525e-9a16-4066-a695-f5ed824d8ab4" />
 
-4. 重新進入專案預覽頁面，即可看到你客製化的主題
+4. 프로젝트 미리보기 페이지를 새로고침하여 사용자 정의 테마 확인
 
-### 修改登陸頁內容
+### 홈페이지 콘텐츠 변경
 
-1. 打開登陸頁內容檔案，AI 輔助生成新的登陸頁內容
+1. 홈페이지 콘텐츠 파일을 열고 AI를 사용하여 새로운 콘텐츠 생성
 
-<img width="1756" alt="圖片" src="https://github.com/user-attachments/assets/7b12d54b-2b81-4945-b025-97eda51c4506" />
+<img width="1756" alt="image" src="https://github.com/user-attachments/assets/7b12d54b-2b81-4945-b025-97eda51c4506" />
 
-2. 應用 AI 生成的新登陸頁內容，人工稍加調整，重新預覽新的登陸頁
-3. 繼續調整其他的 json 檔案，使網頁顯示的內容與你的專案相符
+2. AI 생성 콘텐츠를 적용하고 수동으로 조정한 후 새로운 홈페이지 미리보기
+3. 다른 JSON 파일도 계속 조정하여 웹사이트 콘텐츠가 프로젝트와 일치하도록 함
 
-### 修改多語言文案
+### 다국어 텍스트 변경
 
-在目錄下，透過檔案配置頁面內容，預設支援中文和英文，在目錄下，可以看到兩個檔案，在專案發布之前，修改成與你專案相符合的文案即可。
+디렉토리에서 파일을 통해 페이지 콘텐츠를 구성합니다. 중국어와 영어가 기본적으로 지원됩니다. 프로젝트 출시 전에 텍스트를 프로젝트에 맞게 수정하세요.
 
-<img width="1100" alt="圖片" src="https://github.com/user-attachments/assets/fc15d407-8b96-4756-aa2f-c4bb58954471" />
+<img width="1100" alt="image" src="https://github.com/user-attachments/assets/fc15d407-8b96-4756-aa2f-c4bb58954471" />
 
-可以讓 AI 輔助生成內容。
+콘텐츠 생성에 AI를 활용할 수 있습니다.
 
-### 修改網站協議
+### 웹사이트 정책 변경
 
-在網站正式上線之前，請根據你網站提供的服務，更新目錄下的網站協議。
+웹사이트를 공식적으로 출시하기 전에 사이트의 서비스에 따라 웹사이트 정책을 업데이트하세요.
 
-1. 更新隱私政策
+1. 개인정보 처리방침 업데이트
    
-   在 Windsurf 中，透過提示詞生成新的隱私政策內容。
+   Windsurf에서 프롬프트를 사용하여 새로운 개인정보 처리방침 콘텐츠를 생성합니다.
    
    ```
    update privacy-policy according to landing page content @en.json
    with brand name "AILauncher", domain "ai-startups.uk", contact email is "contact@ai-startups.uk"
    ```
    
-   替換檔案中的內容，更新隱私政策。
+   개인정보 처리방침을 업데이트하기 위해 파일 내용을 교체하세요.
 
-2. 更新服務條款
+2. 서비스 약관 업데이트
    
-   在 Windsurf 中，透過提示詞生成新的服務條款內容。
+   Windsurf에서 프롬프트를 사용하여 새로운 서비스 약관 콘텐츠를 생성합니다.
 
    ```
    update terms-of-service according to landing page content @en.json
    with brand name "AILauncher", domain "ai-startups.uk", contact email is "contact@ai-startups.uk"
    ```
    
-   替換檔案中的內容，更新服務條款。
+   서비스 약관을 업데이트하기 위해 파일 내용을 교체하세요.
 
-## 修改環境變數
+## 환경 변수 변경
 
-根據實際需求，修改環境變數，開啟資料儲存 / 登入 / 資料統計 / 支付等功能
+데이터 저장소/로그인/분석/결제 및 기타 기능을 활성화하기 위해 실제 요구 사항에 따라 환경 변수를 수정하세요.
 
 ```env
 # -----------------------------------------------------------------------------
@@ -199,7 +199,7 @@ STRIPE_PRIVATE_KEY = ""
 STRIPE_WEBHOOK_SECRET = ""
 
 NEXT_PUBLIC_PAY_SUCCESS_URL = "http://localhost:3000/my-orders"
-NEXT_PUBLIC_PAY_FAIL_URL = "http://localhost:3000/#pricing"
+NEXT_PUBLIC_PAY_FAIL_URL = "http://localhost:3000"
 NEXT_PUBLIC_PAY_CANCEL_URL = "http://localhost:3000/#pricing"
 
 NEXT_PUBLIC_LOCALE_DETECTION = "false"
@@ -207,18 +207,18 @@ NEXT_PUBLIC_LOCALE_DETECTION = "false"
 ADMIN_EMAILS = ""
 ```
 
+## 배포
 
-## 部署
-1. 建立 Github 儲存庫
+1. Github 저장소 생성
 
-2. 將修改後的專案程式碼，提交到專案 Github 儲存庫
+2. 수정된 프로젝트 코드를 Github 저장소에 커밋
 
-3. 在 Vercel 控制台建立新專案，匯入程式碼儲存庫，一鍵部署
+3. Vercel 콘솔에서 새 프로젝트를 생성하고 코드 저장소를 가져와 원클릭 배포
 
    <img width="685" alt="image" src="https://github.com/user-attachments/assets/3baf7b2c-ad94-4022-b391-26ebb6df14dc" />
 
-4. 等建置完成，即可在 Vercel 控制台看到你的專案
+4. 빌드가 완료되면 Vercel 콘솔에서 프로젝트를 볼 수 있습니다
 
    <img width="1241" alt="image" src="https://github.com/user-attachments/assets/5c0e0252-0e1d-4bc9-8012-f5e122b0d7f8" />
 
-5. 開啟網域，即可存取你的專案
+5. 도메인 이름을 열어 프로젝트에 접속

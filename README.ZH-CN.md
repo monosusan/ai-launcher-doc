@@ -1,6 +1,16 @@
 - [English](./README.md)
 - [简体中文](./README.ZH-CN.md)
 - [正體中文](./README.ZH-TW.md)
+- [हिन्दी](./README.HI-IN.md)
+- [Français](./README.FR.md)
+- [한국어](./README.KO.md)
+- [Español](./README.ES.md)
+- [Polski](./README.PL.md)
+- [Nederlands](./README.NL.md)
+- [Deutsch](./README.DE.md)
+- [日本語](./README.JA.md)
+- [Tiếng Việt](./README.VI.md)
+- [Türkçe](./README.TR.md)
 
 
 ## 快速开始

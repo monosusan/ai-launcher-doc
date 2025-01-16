@@ -12,133 +12,133 @@
 - [Tiếng Việt](./README.VI.md)
 - [Türkçe](./README.TR.md)
 
-## Quick Start
+## Bắt Đầu Nhanh
 
-1. Purchase on AI Launcher Official Website
+1. Mua trên Trang Web Chính Thức AI Launcher
    
    [https://ai-startups.uk/#pricing](https://ai-startups.uk/#pricing)
 
-2. After Payment, Enter Order Center
+2. Sau khi thanh toán, truy cập Trung Tâm Đơn Hàng
    
    [https://ai-startups.uk/my-orders](https://ai-startups.uk/my-orders)
    
-   Select your order for activation.
+   Chọn đơn hàng của bạn để kích hoạt.
    <img width="1276" alt="Xnip2025-01-13_22-10-13" src="https://github.com/user-attachments/assets/04002ad8-4ad7-4c87-b136-f858a5e9a3e9" />
 
-3. Bind Your Github Username for Activation
+3. Liên kết tên người dùng Github của bạn để kích hoạt
    
    <img width="507" alt="Xnip2025-01-14_00-45-09" src="https://github.com/user-attachments/assets/79d5fd6f-2a08-4876-a2fe-b656f925330b" />
 
-4. After successful activation, you will receive an invitation in your Github notifications. Click to join the AI Launcher code repository.
+4. Sau khi kích hoạt thành công, bạn sẽ nhận được lời mời trong thông báo Github. Nhấp để tham gia kho mã nguồn AI Launcher.
 
-## Clone Project Code
+## Sao Chép Mã Nguồn Dự Án
 
-1. Access the AI Launcher Code Repository (will show 404 if you haven't joined)
+1. Truy cập Kho Mã Nguồn AI Launcher (hiển thị 404 nếu bạn không phải là thành viên)
    
    [https://github.com/monosusan/ai-launcher-code-template](https://github.com/monosusan/ai-launcher-code-template)
 
-2. Choose to Git Clone or Directly Download the Source Code to Your Local Computer
+2. Chọn sao chép Git hoặc tải mã nguồn trực tiếp về máy tính của bạn
 
    <img width="918" alt="image" src="https://github.com/user-attachments/assets/080f1d93-c08d-4360-a9c4-012683a45bee" />
 
-## Install Project
+## Cài Đặt Dự Án
 
-1. Navigate to Project Root Directory
+1. Di chuyển đến thư mục gốc của dự án
    
    ```bash
    cd ai-launcher-code-template
    ```
 
-2. Install Project Dependencies
+2. Cài đặt các gói phụ thuộc của dự án
 
    ```bash
    pnpm install
    ```
 
-## Development and Debugging
+## Phát Triển và Gỡ Lỗi
 
-1. Copy Environment Variable Configuration File
+1. Sao chép tệp cấu hình biến môi trường
 
    ```bash
    cp .env.example .env.development
    ```
 
-2. Start Development Server
+2. Khởi chạy máy chủ phát triển
 
    ```bash
    pnpm dev
    ```
 
-3. Local Preview
+3. Xem Trước Cục Bộ
    
-   Open [http://localhost:3000](http://localhost:3000/) in your browser to preview your project
+   Mở [http://localhost:3000](http://localhost:3000/) trong trình duyệt để xem dự án
 
    <img width="1345" alt="image" src="https://github.com/user-attachments/assets/c6419f32-d296-4f71-bdc6-67cbfa5f0c9a" />
 
-## Customization
+## Tùy Chỉnh
 
-### Modify Website Colors
+### Thay Đổi Màu Sắc Trang Web
 
-1. Choose a shadcn Theme Debugger
+1. Chọn trình gỡ lỗi chủ đề shadcn
    * [shadcn themes](https://ui.shadcn.com/themes)
    * [shadcn-ui-theme-generator](https://zippystarter.com/tools/shadcn-ui-theme-generator)
 
-2. Create a Theme Color Scheme for Your Project
+2. Tạo bảng màu cho dự án của bạn
 
 ![image](https://github.com/user-attachments/assets/76f95a54-3fc9-4d72-b9ae-e6ae4f2ce1f3)
 
-3. Copy Theme Styles and Paste into Project Files
+3. Sao chép kiểu chủ đề và dán vào tệp dự án của bạn
 
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/25ce525e-9a16-4066-a695-f5ed824d8ab4" />
 
-4. Refresh the Project Preview Page to See Your Custom Theme
+4. Làm mới trang xem trước dự án để xem chủ đề tùy chỉnh
 
-### Modify Landing Page Content
+### Thay Đổi Nội Dung Trang Chủ
 
-1. Open the Landing Page Content File, Use AI to Generate New Landing Page Content
+1. Mở tệp nội dung trang chủ và sử dụng AI để tạo nội dung mới
 
 <img width="1756" alt="image" src="https://github.com/user-attachments/assets/7b12d54b-2b81-4945-b025-97eda51c4506" />
 
-2. Apply AI-generated Landing Page Content, Make Manual Adjustments, and Preview the New Landing Page
-3. Continue Adjusting Other JSON Files to Make Website Content Match Your Project
+2. Áp dụng nội dung được tạo bởi AI, thực hiện chỉnh sửa thủ công và xem trước trang chủ mới
+3. Tiếp tục tùy chỉnh các tệp JSON khác để nội dung trang web phù hợp với dự án của bạn
 
-### Modify Multilingual Text
+### Thay Đổi Văn Bản Đa Ngôn Ngữ
 
-In the directory, configure page content through files. Chinese and English are supported by default. Before project launch, modify the text to match your project.
+Trong thư mục, cấu hình nội dung trang thông qua các tệp. Tiếng Trung và tiếng Anh được hỗ trợ mặc định. Điều chỉnh văn bản cho dự án của bạn trước khi ra mắt.
 
 <img width="1100" alt="image" src="https://github.com/user-attachments/assets/fc15d407-8b96-4756-aa2f-c4bb58954471" />
 
-You can use AI to assist in content generation.
+Bạn có thể sử dụng AI để tạo nội dung.
 
-### Modify Website Policies
+### Thay Đổi Chính Sách Trang Web
 
-Before officially launching the website, update the website policies according to your website's services.
+Trước khi chính thức ra mắt trang web, hãy cập nhật chính sách trang web theo dịch vụ của bạn.
 
-1. Update Privacy Policy
+1. Cập Nhật Chính Sách Bảo Mật
    
-   In Windsurf, generate new privacy policy content using prompts.
+   Trong Windsurf, sử dụng prompt để tạo nội dung chính sách bảo mật mới.
    
    ```
    update privacy-policy according to landing page content @en.json
    with brand name "AILauncher", domain "ai-startups.uk", contact email is "contact@ai-startups.uk"
    ```
    
-   Replace file content to update privacy policy.
+   Thay thế nội dung tệp để cập nhật chính sách bảo mật.
 
-2. Update Terms of Service
+2. Cập Nhật Điều Khoản Dịch Vụ
    
-   In Windsurf, generate new terms of service content using prompts.
+   Trong Windsurf, sử dụng prompt để tạo nội dung điều khoản dịch vụ mới.
 
    ```
    update terms-of-service according to landing page content @en.json
    with brand name "AILauncher", domain "ai-startups.uk", contact email is "contact@ai-startups.uk"
    ```
    
-   Replace file content to update terms of service.
+   Thay thế nội dung tệp để cập nhật điều khoản dịch vụ.
 
-## Modify Environment Variables
+## Thay Đổi Biến Môi Trường
 
-Modify environment variables according to actual needs to enable data storage / login / analytics / payment and other features
+Sửa đổi các biến môi trường theo nhu cầu thực tế để bật lưu trữ dữ liệu/đăng nhập/phân tích/thanh toán và các tính năng khác
 
 ```env
 # -----------------------------------------------------------------------------
@@ -207,20 +207,18 @@ NEXT_PUBLIC_LOCALE_DETECTION = "false"
 ADMIN_EMAILS = ""
 ```
 
-## Deployment
+## Triển Khai
 
-1. Create a Github repository
+1. Tạo kho lưu trữ Github
 
-2. Commit the modified project code to the Github repository
+2. Commit mã dự án đã tùy chỉnh vào kho lưu trữ Github
 
-3. Create a new project in the Vercel console, import the code repository, and deploy with one click
+3. Tạo dự án mới trong bảng điều khiển Vercel, nhập kho mã và triển khai bằng một cú nhấp chuột
 
-   <img width="685" alt="image" src="https://github.com/user-attachments/assets/3baf7b2c-ad94-4022-b391-26ebb6df14dc" />
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/3baf7b2c-ad94-4022-b391-26ebb6df14dc" />
 
+4. Cấu hình cài đặt tên miền và chứng chỉ SSL trong bảng điều khiển Vercel
 
-4. After the build is complete, you can see your project in the Vercel console
+<img width="1241" alt="image" src="https://github.com/user-attachments/assets/5c0e0252-0e1d-4bc9-8012-f5e122b0d7f8" />
 
-   <img width="1241" alt="image" src="https://github.com/user-attachments/assets/5c0e0252-0e1d-4bc9-8012-f5e122b0d7f8" />
-
-5. Open the domain name to access your project
-
+5. Ra mắt trang web chính thức

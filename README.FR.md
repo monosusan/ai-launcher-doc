@@ -12,133 +12,133 @@
 - [Tiếng Việt](./README.VI.md)
 - [Türkçe](./README.TR.md)
 
-## 快速開始
+## Démarrage Rapide
 
-1. 在 AI Launcher 官網下單購買
+1. Achat sur le Site Officiel d'AI Launcher
    
    [https://ai-startups.uk/#pricing](https://ai-startups.uk/#pricing)
 
-2. 支付完成後，進入訂單中心
+2. Après le Paiement, Accéder au Centre de Commandes
    
    [https://ai-startups.uk/my-orders](https://ai-startups.uk/my-orders)
    
-   選擇訂單進行啟用。
+   Sélectionnez votre commande pour l'activation.
    <img width="1276" alt="Xnip2025-01-13_22-10-13" src="https://github.com/user-attachments/assets/04002ad8-4ad7-4c87-b136-f858a5e9a3e9" />
 
-3. 綁定你的 Github Username 進行啟用
+3. Lier Votre Nom d'Utilisateur Github pour l'Activation
    
    <img width="507" alt="Xnip2025-01-14_00-45-09" src="https://github.com/user-attachments/assets/79d5fd6f-2a08-4876-a2fe-b656f925330b" />
 
-4. 啟用成功後，你將在 Github 通知中心收到邀請，點擊加入 AI Launcher 程式碼儲存庫
+4. Après l'activation réussie, vous recevrez une invitation dans vos notifications Github. Cliquez pour rejoindre le dépôt de code AI Launcher.
 
-## 取得專案程式碼
+## Cloner le Code du Projet
 
-1. 進入 AI Launcher 程式碼儲存庫（如果未加入儲存庫，打開會是 404）
+1. Accéder au Dépôt de Code AI Launcher (affichera 404 si vous n'avez pas rejoint)
    
    [https://github.com/monosusan/ai-launcher-code-template](https://github.com/monosusan/ai-launcher-code-template)
 
-2. 選擇 git clone 的方式，或者直接下載原始碼到你的本機電腦
+2. Choisissez de Cloner Git ou de Télécharger Directement le Code Source sur Votre Ordinateur Local
 
-   <img width="918" alt="圖片" src="https://github.com/user-attachments/assets/080f1d93-c08d-4360-a9c4-012683a45bee" />
+   <img width="918" alt="image" src="https://github.com/user-attachments/assets/080f1d93-c08d-4360-a9c4-012683a45bee" />
 
-## 安裝專案
+## Installer le Projet
 
-1. 進入專案根目錄
+1. Naviguer vers le Répertoire Racine du Projet
    
    ```bash
    cd ai-launcher-code-template
    ```
 
-2. 安裝專案相依套件
+2. Installer les Dépendances du Projet
 
    ```bash
    pnpm install
    ```
 
-## 開發除錯
+## Développement et Débogage
 
-1. 複製環境變數設定檔
+1. Copier le Fichier de Configuration des Variables d'Environnement
 
    ```bash
    cp .env.example .env.development
    ```
 
-2. 啟動開發伺服器
+2. Démarrer le Serveur de Développement
 
    ```bash
    pnpm dev
    ```
 
-3. 本機預覽
+3. Aperçu Local
    
-   在瀏覽器打開 [http://localhost:3000](http://localhost:3000/) ，即可預覽你的專案
+   Ouvrez [http://localhost:3000](http://localhost:3000/) dans votre navigateur pour prévisualiser votre projet
 
-   <img width="1345" alt="圖片" src="https://github.com/user-attachments/assets/c6419f32-d296-4f71-bdc6-67cbfa5f0c9a" />
+   <img width="1345" alt="image" src="https://github.com/user-attachments/assets/c6419f32-d296-4f71-bdc6-67cbfa5f0c9a" />
 
-## 客製化修改
+## Personnalisation
 
-### 修改網頁配色
+### Modifier les Couleurs du Site Web
 
-1. 選擇一個 shadcn 主題除錯器
+1. Choisir un Débogueur de Thème shadcn
    * [shadcn themes](https://ui.shadcn.com/themes)
    * [shadcn-ui-theme-generator](https://zippystarter.com/tools/shadcn-ui-theme-generator)
 
-2. 為你的專案調製一套主題配色
+2. Créer un Schéma de Couleurs pour Votre Projet
 
-![圖片](https://github.com/user-attachments/assets/76f95a54-3fc9-4d72-b9ae-e6ae4f2ce1f3)
+![image](https://github.com/user-attachments/assets/76f95a54-3fc9-4d72-b9ae-e6ae4f2ce1f3)
 
-3. 複製主題樣式，貼上到專案檔案
+3. Copier les Styles du Thème et les Coller dans les Fichiers du Projet
 
-<img width="770" alt="圖片" src="https://github.com/user-attachments/assets/25ce525e-9a16-4066-a695-f5ed824d8ab4" />
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/25ce525e-9a16-4066-a695-f5ed824d8ab4" />
 
-4. 重新進入專案預覽頁面，即可看到你客製化的主題
+4. Actualiser la Page d'Aperçu du Projet pour Voir Votre Thème Personnalisé
 
-### 修改登陸頁內容
+### Modifier le Contenu de la Page d'Accueil
 
-1. 打開登陸頁內容檔案，AI 輔助生成新的登陸頁內容
+1. Ouvrir le Fichier de Contenu de la Page d'Accueil, Utiliser l'IA pour Générer un Nouveau Contenu
 
-<img width="1756" alt="圖片" src="https://github.com/user-attachments/assets/7b12d54b-2b81-4945-b025-97eda51c4506" />
+<img width="1756" alt="image" src="https://github.com/user-attachments/assets/7b12d54b-2b81-4945-b025-97eda51c4506" />
 
-2. 應用 AI 生成的新登陸頁內容，人工稍加調整，重新預覽新的登陸頁
-3. 繼續調整其他的 json 檔案，使網頁顯示的內容與你的專案相符
+2. Appliquer le Contenu Généré par l'IA, Faire des Ajustements Manuels et Prévisualiser la Nouvelle Page d'Accueil
+3. Continuer à Ajuster d'Autres Fichiers JSON pour que le Contenu du Site Web Corresponde à Votre Projet
 
-### 修改多語言文案
+### Modifier les Textes Multilingues
 
-在目錄下，透過檔案配置頁面內容，預設支援中文和英文，在目錄下，可以看到兩個檔案，在專案發布之前，修改成與你專案相符合的文案即可。
+Dans le répertoire, configurez le contenu de la page via des fichiers. Le chinois et l'anglais sont pris en charge par défaut. Avant le lancement du projet, modifiez le texte pour qu'il corresponde à votre projet.
 
-<img width="1100" alt="圖片" src="https://github.com/user-attachments/assets/fc15d407-8b96-4756-aa2f-c4bb58954471" />
+<img width="1100" alt="image" src="https://github.com/user-attachments/assets/fc15d407-8b96-4756-aa2f-c4bb58954471" />
 
-可以讓 AI 輔助生成內容。
+Vous pouvez utiliser l'IA pour aider à la génération de contenu.
 
-### 修改網站協議
+### Modifier les Politiques du Site Web
 
-在網站正式上線之前，請根據你網站提供的服務，更新目錄下的網站協議。
+Avant de lancer officiellement le site web, mettez à jour les politiques du site web selon les services de votre site.
 
-1. 更新隱私政策
+1. Mettre à Jour la Politique de Confidentialité
    
-   在 Windsurf 中，透過提示詞生成新的隱私政策內容。
+   Dans Windsurf, générez un nouveau contenu de politique de confidentialité en utilisant des prompts.
    
    ```
    update privacy-policy according to landing page content @en.json
    with brand name "AILauncher", domain "ai-startups.uk", contact email is "contact@ai-startups.uk"
    ```
    
-   替換檔案中的內容，更新隱私政策。
+   Remplacez le contenu du fichier pour mettre à jour la politique de confidentialité.
 
-2. 更新服務條款
+2. Mettre à Jour les Conditions d'Utilisation
    
-   在 Windsurf 中，透過提示詞生成新的服務條款內容。
+   Dans Windsurf, générez un nouveau contenu des conditions d'utilisation en utilisant des prompts.
 
    ```
    update terms-of-service according to landing page content @en.json
    with brand name "AILauncher", domain "ai-startups.uk", contact email is "contact@ai-startups.uk"
    ```
    
-   替換檔案中的內容，更新服務條款。
+   Remplacez le contenu du fichier pour mettre à jour les conditions d'utilisation.
 
-## 修改環境變數
+## Modifier les Variables d'Environnement
 
-根據實際需求，修改環境變數，開啟資料儲存 / 登入 / 資料統計 / 支付等功能
+Modifiez les variables d'environnement selon les besoins réels pour activer le stockage de données / connexion / analyse / paiement et autres fonctionnalités
 
 ```env
 # -----------------------------------------------------------------------------
@@ -199,7 +199,7 @@ STRIPE_PRIVATE_KEY = ""
 STRIPE_WEBHOOK_SECRET = ""
 
 NEXT_PUBLIC_PAY_SUCCESS_URL = "http://localhost:3000/my-orders"
-NEXT_PUBLIC_PAY_FAIL_URL = "http://localhost:3000/#pricing"
+NEXT_PUBLIC_PAY_FAIL_URL = "http://localhost:3000"
 NEXT_PUBLIC_PAY_CANCEL_URL = "http://localhost:3000/#pricing"
 
 NEXT_PUBLIC_LOCALE_DETECTION = "false"
@@ -207,18 +207,18 @@ NEXT_PUBLIC_LOCALE_DETECTION = "false"
 ADMIN_EMAILS = ""
 ```
 
+## Déploiement
 
-## 部署
-1. 建立 Github 儲存庫
+1. Créer un Dépôt Github
 
-2. 將修改後的專案程式碼，提交到專案 Github 儲存庫
+2. Valider le Code du Projet Modifié dans le Dépôt Github
 
-3. 在 Vercel 控制台建立新專案，匯入程式碼儲存庫，一鍵部署
+3. Créer un Nouveau Projet dans la Console Vercel, Importer le Dépôt de Code et Déployer en Un Clic
 
    <img width="685" alt="image" src="https://github.com/user-attachments/assets/3baf7b2c-ad94-4022-b391-26ebb6df14dc" />
 
-4. 等建置完成，即可在 Vercel 控制台看到你的專案
+4. Une Fois la Construction Terminée, Vous Pourrez Voir Votre Projet dans la Console Vercel
 
    <img width="1241" alt="image" src="https://github.com/user-attachments/assets/5c0e0252-0e1d-4bc9-8012-f5e122b0d7f8" />
 
-5. 開啟網域，即可存取你的專案
+5. Ouvrir le Nom de Domaine pour Accéder à Votre Projet
