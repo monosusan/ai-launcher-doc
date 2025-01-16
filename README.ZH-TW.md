@@ -205,6 +205,10 @@ ADMIN_EMAILS = ""
 
 3. 在 Vercel 控制台建立新專案，匯入程式碼儲存庫，一鍵部署
 
+   <img width="685" alt="image" src="https://github.com/user-attachments/assets/3baf7b2c-ad94-4022-b391-26ebb6df14dc" />
+
 4. 等建置完成，即可在 Vercel 控制台看到你的專案
+
+   <img width="1241" alt="image" src="https://github.com/user-attachments/assets/5c0e0252-0e1d-4bc9-8012-f5e122b0d7f8" />
 
 5. 開啟網域，即可存取你的專案
