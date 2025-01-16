@@ -205,6 +205,12 @@ ADMIN_EMAILS = ""
 
 3. Create a new project in the Vercel console, import the code repository, and deploy with one click
 
+   <img width="685" alt="image" src="https://github.com/user-attachments/assets/3baf7b2c-ad94-4022-b391-26ebb6df14dc" />
+
+
 4. After the build is complete, you can see your project in the Vercel console
+
+   <img width="1241" alt="image" src="https://github.com/user-attachments/assets/5c0e0252-0e1d-4bc9-8012-f5e122b0d7f8" />
+
 
 
