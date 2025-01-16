@@ -212,5 +212,5 @@ ADMIN_EMAILS = ""
 
    <img width="1241" alt="image" src="https://github.com/user-attachments/assets/5c0e0252-0e1d-4bc9-8012-f5e122b0d7f8" />
 
-
+5. Open the domain name to access your project
 
